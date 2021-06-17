@@ -1,0 +1,52 @@
+10:21:44.376 [main] INFO  org.tutorialsNinja.SearchProductsTest - Driver initialized.
+10:21:45.659 [main] INFO  org.tutorialsNinja.SearchProductsTest - URL hit : http://tutorialsninja.com/demo
+10:21:46.411 [main] INFO  org.tutorialsNinja.SearchProductsTest - Search Product : Samsung SyncMaster 941BW
+10:21:46.862 [main] INFO  org.tutorialsNinja.SearchProductsTest - Product Searched : Samsung SyncMaster 941BW
+10:21:46.895 [main] INFO  org.tutorialsNinja.SearchProductsTest - Product price : $242.00
+10:21:46.956 [main] INFO  org.tutorialsNinja.SearchProductsTest - Search Product : iMac
+10:21:47.295 [main] INFO  org.tutorialsNinja.SearchProductsTest - Product Searched : iMac
+10:21:47.318 [main] INFO  org.tutorialsNinja.SearchProductsTest - Product price : $122.00
+10:21:51.352 [main] INFO  org.tutorialsNinja.SortLaptopTest - Driver initialized.
+10:21:53.291 [main] INFO  org.tutorialsNinja.SortLaptopTest - URL hit : http://tutorialsninja.com/demo
+10:21:53.473 [main] INFO  org.tutorialsNinja.SortLaptopTest - Go To Laptops And NoteBooks page.
+10:21:54.011 [main] INFO  org.tutorialsNinja.SortLaptopTest - Sort By : Name (A - Z)
+10:21:54.505 [main] INFO  org.tutorialsNinja.SortLaptopTest - Sorting Complete. List sorted as per : Name (A - Z)
+10:21:55.275 [main] INFO  org.tutorialsNinja.SortLaptopTest - Go To Laptops And NoteBooks page.
+10:21:55.600 [main] INFO  org.tutorialsNinja.SortLaptopTest - Sort By : ABC
+10:22:09.286 [main] INFO  org.tutorialsNinja.CamerasPageTests - driver is initialized
+10:22:10.643 [main] INFO  org.tutorialsNinja.CamerasPageTests - URL is opened http://tutorialsninja.com/demo
+10:22:10.810 [main] INFO  org.tutorialsNinja.CamerasPageTests - Actual TitleYour Store
+10:22:11.460 [main] INFO  org.tutorialsNinja.CamerasPageTests - Navigated to Cameras page
+10:22:11.765 [main] INFO  org.tutorialsNinja.CamerasPageTests - All UI objects of cameras page are verififed
+10:22:12.089 [main] INFO  org.tutorialsNinja.CamerasPageTests - grid view is verified
+10:22:15.367 [main] INFO  org.tutorialsNinja.CamerasPageTests - Cart value is1 item(s) - $98.00
+10:22:15.790 [main] INFO  org.tutorialsNinja.CamerasPageTests - Product added to wishlist
+10:22:18.719 [main] INFO  org.tutorialsNinja.CamerasPageTests - driver is closed
+10:22:22.470 [main] INFO  org.tutorialsNinja.CheckOutPageTests - driver is initialized
+10:22:23.950 [main] INFO  org.tutorialsNinja.CheckOutPageTests - URL is opened http://tutorialsninja.com/demo
+10:22:24.112 [main] INFO  org.tutorialsNinja.CheckOutPageTests - Actual TitleYour Store
+10:22:27.823 [main] INFO  org.tutorialsNinja.CheckOutPageTests - Cart value is1 item(s) - $98.00
+10:22:28.214 [main] INFO  org.tutorialsNinja.CheckOutPageTests - navigated to checkout Page
+10:22:32.887 [main] INFO  org.tutorialsNinja.CheckOutPageTests - Product in the checkout page :  : Nikon D300
+10:22:32.943 [main] INFO  org.tutorialsNinja.CheckOutPageTests - product unit price is : $80.00
+10:22:33.309 [main] INFO  org.tutorialsNinja.CheckOutPageTests - order confirmation as : Your order has been placed!
+10:22:34.198 [main] INFO  org.tutorialsNinja.CheckOutPageTests - driver is closed
+10:22:36.187 [main] INFO  org.tutorialsNinja.AddToCartTest - Driver initialized.
+10:22:37.459 [main] INFO  org.tutorialsNinja.AddToCartTest - URL hit : http://tutorialsninja.com/demo
+10:22:37.660 [main] INFO  org.tutorialsNinja.AddToCartTest -  Running LOGIN page scenarios ......  
+10:22:37.675 [main] INFO  org.tutorialsNinja.AddToCartTest - my Account Dropdown was located successfully using locator value //span[contains(text(),'My Account')]
+10:22:37.811 [main] INFO  org.tutorialsNinja.AddToCartTest - login Option was located successfully using locator value //a[contains(@title,'My Account')]/parent::li[contains(@class,'dropdown')]//a[contains(text(),'Login')]
+10:22:38.111 [main] INFO  org.tutorialsNinja.AddToCartTest - username Text Field was located successfully using locator value input-email
+10:22:38.165 [main] INFO  org.tutorialsNinja.AddToCartTest - username Text Field was located successfully using locator value input-email
+10:22:38.261 [main] INFO  org.tutorialsNinja.AddToCartTest -  password Text Field was located successfully using locator value input-password
+10:22:38.355 [main] INFO  org.tutorialsNinja.AddToCartTest - login Button was located successfully using locator value //input[contains(@value,'Login')]
+10:22:38.804 [main] INFO  org.tutorialsNinja.AddToCartTest - menu Bar was located successfully using locator value //nav[@id='menu']
+10:22:38.839 [main] INFO  org.tutorialsNinja.AddToCartTest -  Running Add Cameras Item To Cart scenarios ......  
+10:22:38.854 [main] INFO  org.tutorialsNinja.AddToCartTest - CAMERAS menu option in nav bar  was located successfully using locator value //ul[contains(@class,'nav navbar-nav')]//a[text()='Cameras']
+10:22:39.164 [main] INFO  org.tutorialsNinja.AddToCartTest - cameras Text was located successfully using locator value //div[@id='content']//h2[contains(text(),'Cameras')]
+10:22:39.210 [main] INFO  org.tutorialsNinja.AddToCartTest - add To Cart Button was located successfully using locator value //a[contains(text(),'Nikon D300')]/ancestor::div[contains(@class,'product-thumb')]//span[contains(text(),'Add to Cart')]
+10:22:39.254 [main] INFO  org.tutorialsNinja.AddToCartTest - add To Cart Button was located successfully using locator value //a[contains(text(),'Nikon D300')]/ancestor::div[contains(@class,'product-thumb')]//span[contains(text(),'Add to Cart')]
+10:22:39.552 [main] INFO  org.tutorialsNinja.AddToCartTest - success Message was located successfully using locator value //div[contains(@class,'alert alert-success alert-dismissible') and contains(text(),'You have added')]//a[contains(text(),'shopping cart')]
+10:22:39.604 [main] INFO  org.tutorialsNinja.AddToCartTest - login Option was located successfully using locator value //a[@title='Shopping Cart']//span[contains(text(),'Shopping Cart')]
+10:22:39.650 [main] INFO  org.tutorialsNinja.AddToCartTest - login Option was located successfully using locator value //a[@title='Shopping Cart']//span[contains(text(),'Shopping Cart')]
+10:22:50.701 [main] INFO  org.tutorialsNinja.AddToCartTest - driver instance quit successfully
