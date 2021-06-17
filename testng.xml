@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="org.tutorialsNinja.Listener" />
+	</listeners>
+
+	<test name="Test1">
+		<classes>
+			<class name="org.tutorialsNinja.SearchProductsTest" />
+		</classes>
+	</test>
+
+	<test name="Test2">
+		<classes>
+			<class name="org.tutorialsNinja.SortLaptopTest" />
+		</classes>
+	</test>
+
+	<test name="Test3">
+		<classes>
+			<class name="org.tutorialsNinja.CamerasPageTests" />
+		</classes>
+	</test>
+
+	<test name="Test4">
+		<classes>
+			<class name="org.tutorialsNinja.CheckOutPageTests" />
+		</classes>
+	</test>
+
+	<test name="Test5">
+		<classes>
+			<class name="org.tutorialsNinja.AddToCartTest" />
+		</classes>
+	</test>
+
+</suite> 
